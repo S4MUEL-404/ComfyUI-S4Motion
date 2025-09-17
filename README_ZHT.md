@@ -38,7 +38,7 @@ ComfyUI 的綜合動態動畫工具包，提供 11 個專業級動態控制節�
    ```
 2. 複製此存儲庫：
    ```
-   git clone https://github.com/S4MUEL/ComfyUI-S4Motion.git
+   git clone https://github.com/S4MUEL-404/ComfyUI-S4Motion.git
    ```
 3. 安裝依賴項：
    ```

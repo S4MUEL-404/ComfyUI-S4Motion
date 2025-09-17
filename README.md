@@ -38,7 +38,7 @@ A comprehensive motion animation toolkit for ComfyUI, providing 11 professional-
    ```
 2. Clone this repository:
    ```
-   git clone https://github.com/S4MUEL/ComfyUI-S4Motion.git
+   git clone https://github.com/S4MUEL-404/ComfyUI-S4Motion.git
    ```
 3. Install dependencies:
    ```

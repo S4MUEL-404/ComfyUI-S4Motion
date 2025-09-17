@@ -38,7 +38,7 @@ ComfyUI 的综合动态动画工具包，提供 11 个专业级动态控制节�
    ```
 2. 复制此存储库：
    ```
-   git clone https://github.com/S4MUEL/ComfyUI-S4Motion.git
+   git clone https://github.com/S4MUEL-404/ComfyUI-S4Motion.git
    ```
 3. 安装依赖项：
    ```
