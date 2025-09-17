@@ -1,4 +1,4 @@
-__version__ = "1.0.0"
+__version__ = "1.4.0"
 
 # Import dependency manager first
 from .dependency_manager import check_startup_dependencies, S4MotionLogger
@@ -32,6 +32,8 @@ from .py.motionShake import MotionShakeNode
 from .py.motionMask import MotionMaskNode
 from .py.videoCrop import VideoCropNode
 from .py.videoFrames import VideoFramesNode
+from .py.videoCombine import VideoCombineNode
+from .py.videoInfo import VideoInfoNode
 import os
 
 NODE_CLASS_MAPPINGS = {
@@ -46,6 +48,8 @@ NODE_CLASS_MAPPINGS = {
     "💀Motion Mask": MotionMaskNode,
     "💀Video Crop": VideoCropNode,
     "💀Video Frames": VideoFramesNode,
+    "💀Video Combine": VideoCombineNode,
+    "💀Video Info": VideoInfoNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -60,4 +64,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "💀Motion Mask": "💀Motion Mask",
     "💀Video Crop": "💀Video Crop",
     "💀Video Frames": "💀Video Frames",
+    "💀Video Combine": "💀Video Combine",
+    "💀Video Info": "💀Video Info",
 }

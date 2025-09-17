@@ -1,8 +1,8 @@
 # ComfyUI-S4Motion
 
-**版本：1.2.0**
+**版本：1.4.0**
 
-ComfyUI 的综合动态动画工具包，提供 11 个专业级动态控制节点，用于创建具有生产品质和可靠性的动态动画。
+ComfyUI 的综合动态动画工具包，提供 12 个专业级动态控制节点，用于创建具有生产品质和可靠性的动态动画。
 
 ## 🚀 功能特色
 
@@ -22,6 +22,7 @@ ComfyUI 的综合动态动画工具包，提供 11 个专业级动态控制节�
 ### 视频处理
 - **💀Video Crop** - 支持动画的精确视频裁剪
 - **💀Video Frames** - 高级帧提取和处理
+- **💀Video Combine** - 在时间上连接两个视频或图像序列
 
 ## 📦 安装
 
@@ -102,7 +103,8 @@ ComfyUI-S4Motion/
 │   ├── motionShake.py     # 震动/振动效果
 │   ├── motionMask.py      # 动画遮罩
 │   ├── videoCrop.py       # 视频裁剪
-│   └── videoFrames.py     # 帧处理
+│   ├── videoFrames.py     # 帧处理
+│   └── videoCombine.py    # 视频组合
 ├── examples/              # 使用示例和工作流程
 ├── summary_md/            # 开发摘要和笔记
 ├── __init__.py           # 插件初始化
@@ -140,4 +142,4 @@ S4Motion 支持专业缓动函数：
 
 **作者：** S4MUEL  
 **网站：** [s4muel.com](https://s4muel.com)  
-**版本：** 1.2.0
+**版本：** 1.4.0
